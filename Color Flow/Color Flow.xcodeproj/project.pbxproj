@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E017E9292DF6C9D700A4E060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E017E9102DF6C9D200A4E060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E017E9172DF6C9D200A4E060;
+			remoteInfo = "Color Flow";
+		};
+		E017E9332DF6C9D700A4E060 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E017E9102DF6C9D200A4E060 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E017E9172DF6C9D200A4E060;
+			remoteInfo = "Color Flow";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E017E9182DF6C9D200A4E060 /* Color Flow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Flow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E017E9282DF6C9D700A4E060 /* Color FlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color FlowTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E017E9322DF6C9D700A4E060 /* Color FlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color FlowUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E017E91A2DF6C9D200A4E060 /* Color Flow */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Color Flow";
+			sourceTree = "<group>";
+		};
+		E017E92B2DF6C9D700A4E060 /* Color FlowTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Color FlowTests";
+			sourceTree = "<group>";
+		};
+		E017E9352DF6C9D700A4E060 /* Color FlowUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Color FlowUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E017E9152DF6C9D200A4E060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E017E9252DF6C9D700A4E060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E017E92F2DF6C9D700A4E060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E017E90F2DF6C9D200A4E060 = {
+			isa = PBXGroup;
+			children = (
+				E017E91A2DF6C9D200A4E060 /* Color Flow */,
+				E017E92B2DF6C9D700A4E060 /* Color FlowTests */,
+				E017E9352DF6C9D700A4E060 /* Color FlowUITests */,
+				E017E9192DF6C9D200A4E060 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E017E9192DF6C9D200A4E060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E017E9182DF6C9D200A4E060 /* Color Flow.app */,
+				E017E9282DF6C9D700A4E060 /* Color FlowTests.xctest */,
+				E017E9322DF6C9D700A4E060 /* Color FlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E017E9172DF6C9D200A4E060 /* Color Flow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E017E93C2DF6C9D700A4E060 /* Build configuration list for PBXNativeTarget "Color Flow" */;
+			buildPhases = (
+				E017E9142DF6C9D200A4E060 /* Sources */,
+				E017E9152DF6C9D200A4E060 /* Frameworks */,
+				E017E9162DF6C9D200A4E060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E017E91A2DF6C9D200A4E060 /* Color Flow */,
+			);
+			name = "Color Flow";
+			packageProductDependencies = (
+			);
+			productName = "Color Flow";
+			productReference = E017E9182DF6C9D200A4E060 /* Color Flow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E017E9272DF6C9D700A4E060 /* Color FlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E017E93F2DF6C9D700A4E060 /* Build configuration list for PBXNativeTarget "Color FlowTests" */;
+			buildPhases = (
+				E017E9242DF6C9D700A4E060 /* Sources */,
+				E017E9252DF6C9D700A4E060 /* Frameworks */,
+				E017E9262DF6C9D700A4E060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E017E92A2DF6C9D700A4E060 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E017E92B2DF6C9D700A4E060 /* Color FlowTests */,
+			);
+			name = "Color FlowTests";
+			packageProductDependencies = (
+			);
+			productName = "Color FlowTests";
+			productReference = E017E9282DF6C9D700A4E060 /* Color FlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E017E9312DF6C9D700A4E060 /* Color FlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E017E9422DF6C9D700A4E060 /* Build configuration list for PBXNativeTarget "Color FlowUITests" */;
+			buildPhases = (
+				E017E92E2DF6C9D700A4E060 /* Sources */,
+				E017E92F2DF6C9D700A4E060 /* Frameworks */,
+				E017E9302DF6C9D700A4E060 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E017E9342DF6C9D700A4E060 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E017E9352DF6C9D700A4E060 /* Color FlowUITests */,
+			);
+			name = "Color FlowUITests";
+			packageProductDependencies = (
+			);
+			productName = "Color FlowUITests";
+			productReference = E017E9322DF6C9D700A4E060 /* Color FlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E017E9102DF6C9D200A4E060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					E017E9172DF6C9D200A4E060 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					E017E9272DF6C9D700A4E060 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E017E9172DF6C9D200A4E060;
+					};
+					E017E9312DF6C9D700A4E060 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = E017E9172DF6C9D200A4E060;
+					};
+				};
+			};
+			buildConfigurationList = E017E9132DF6C9D200A4E060 /* Build configuration list for PBXProject "Color Flow" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E017E90F2DF6C9D200A4E060;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E017E9192DF6C9D200A4E060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E017E9172DF6C9D200A4E060 /* Color Flow */,
+				E017E9272DF6C9D700A4E060 /* Color FlowTests */,
+				E017E9312DF6C9D700A4E060 /* Color FlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E017E9162DF6C9D200A4E060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E017E9262DF6C9D700A4E060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E017E9302DF6C9D700A4E060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E017E9142DF6C9D200A4E060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E017E9242DF6C9D700A4E060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E017E92E2DF6C9D700A4E060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E017E92A2DF6C9D700A4E060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E017E9172DF6C9D200A4E060 /* Color Flow */;
+			targetProxy = E017E9292DF6C9D700A4E060 /* PBXContainerItemProxy */;
+		};
+		E017E9342DF6C9D700A4E060 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E017E9172DF6C9D200A4E060 /* Color Flow */;
+			targetProxy = E017E9332DF6C9D700A4E060 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E017E93A2DF6C9D700A4E060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Debug;
+		};
+		E017E93B2DF6C9D700A4E060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E017E93D2DF6C9D700A4E060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Color Flow/Preview Content\"";
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Color-Flow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		E017E93E2DF6C9D700A4E060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Color Flow/Preview Content\"";
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Color-Flow";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		E017E9402DF6C9D700A4E060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Color-FlowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Flow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Color Flow";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Debug;
+		};
+		E017E9412DF6C9D700A4E060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Color-FlowTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Color Flow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Color Flow";
+				TVOS_DEPLOYMENT_TARGET = 18.1;
+			};
+			name = Release;
+		};
+		E017E9432DF6C9D700A4E060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Color-FlowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Color Flow";
+			};
+			name = Debug;
+		};
+		E017E9442DF6C9D700A4E060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TWHE8V8GUK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.elliotwilliams.Color-FlowUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "Color Flow";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E017E9132DF6C9D200A4E060 /* Build configuration list for PBXProject "Color Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E017E93A2DF6C9D700A4E060 /* Debug */,
+				E017E93B2DF6C9D700A4E060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E017E93C2DF6C9D700A4E060 /* Build configuration list for PBXNativeTarget "Color Flow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E017E93D2DF6C9D700A4E060 /* Debug */,
+				E017E93E2DF6C9D700A4E060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E017E93F2DF6C9D700A4E060 /* Build configuration list for PBXNativeTarget "Color FlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E017E9402DF6C9D700A4E060 /* Debug */,
+				E017E9412DF6C9D700A4E060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E017E9422DF6C9D700A4E060 /* Build configuration list for PBXNativeTarget "Color FlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E017E9432DF6C9D700A4E060 /* Debug */,
+				E017E9442DF6C9D700A4E060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E017E9102DF6C9D200A4E060 /* Project object */;
+}
